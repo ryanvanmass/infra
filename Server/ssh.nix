@@ -3,6 +3,6 @@
     services.openssh.enable = true;
     
     users.users.ryan.openssh.authorizedKeys.keyFiles = [
-        /home/ryan/Server/authorized_keys
+        /home/ryan/Infra/Server/authorized_keys
     ];
   }
