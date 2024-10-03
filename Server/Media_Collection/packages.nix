@@ -4,6 +4,6 @@
         qbittorrent
         libation
         spotdl
-        openv2pn
+        openvpn
       ];
   }
