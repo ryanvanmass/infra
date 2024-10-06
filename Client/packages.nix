@@ -14,4 +14,7 @@
     rclone
     rclone-browser
   ];
+  
+  # Enable Flatpak
+  services.flatpak.enable = true;
 }
