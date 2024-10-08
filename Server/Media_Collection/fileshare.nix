@@ -6,7 +6,7 @@
     };
 
     fileSystems."/media/Movies" = {
-        device = "192.168.2.21:/mnt/Jango/Utility/Media/Movies";
+        device = "192.168.2.21:/mnt/Jango/Utility/Media/Movie";
         fsType = "nfs";
         options = [ "x-systemd.automount" "noauto" ];
     };
