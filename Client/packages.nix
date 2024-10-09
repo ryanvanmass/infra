@@ -13,6 +13,7 @@
     moonlight-qt
     rclone
     rclone-browser
+    angryipscanner
   ];
   
   # Enable Flatpak
