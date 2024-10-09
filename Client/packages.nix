@@ -14,6 +14,7 @@
     rclone
     rclone-browser
     angryipscanner
+    onlyoffice-bin_latest
   ];
   
   # Enable Flatpak
