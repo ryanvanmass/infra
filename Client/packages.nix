@@ -15,6 +15,7 @@
     rclone-browser
     angryipscanner
     onlyoffice-bin_latest
+    nextcloud-client
   ];
   
   # Enable Flatpak
