@@ -9,7 +9,7 @@
     vscode
     docker
     google-chrome
-    joplin-desktop
+    # joplin-desktop # Install via Flatpak due to version issue
     moonlight-qt
     rclone
     rclone-browser
