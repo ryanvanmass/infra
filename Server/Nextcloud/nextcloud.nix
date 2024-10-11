@@ -1,6 +1,7 @@
 { config, lib, pkgs, ... }:
 {
   environment.etc."nextcloud-admin-pass".text = "";
+  networking.firewall.allowedTCPPorts = [ 443 80 ];
   services.nextcloud = {
     enable = true;
     # configureRedis = true;
