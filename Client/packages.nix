@@ -16,10 +16,12 @@
     angryipscanner
     onlyoffice-bin_latest
     nextcloud-client
+    virtualbox
   ];
   
   # Enable Flatpak
   services.flatpak.enable = true;
   virtualisation.docker.enable = true;
+  virtualisation.virtualbox.host.enable = true
 
 }
