@@ -6,8 +6,14 @@
     # configureRedis = true;
     package = pkgs.nextcloud29;
     hostName = "nextcloud";
-    # https = true;
+    https = true;
     config.adminpassFile = "/etc/nextcloud-admin-pass";
+    settings = {
+      overwriteProtocol = "https";
+      trusted_domains = [
+        ""
+      ];
+    };
     # autoUpdateApps.enable = true;
     # extraAppsEnable = true;
     # extraApps = with config.services.nextcloud.package.packages.apps; {
