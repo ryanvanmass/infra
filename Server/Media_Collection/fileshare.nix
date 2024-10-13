@@ -18,7 +18,7 @@
     };
 
     fileSystems."/media/Audiobook" = {
-        device = "192.168.2.21:/mnt/Jango/Utility/Media/Audiobook";
+        device = "192.168.2.21:/mnt/Jango/Utility/Media/Audiobooks";
         fsType = "nfs";
         options = [ "x-systemd.automount" "noauto" ];
     };
