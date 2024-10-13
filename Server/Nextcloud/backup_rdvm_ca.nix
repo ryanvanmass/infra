@@ -6,9 +6,10 @@
     # configureRedis = true;
     package = pkgs.nextcloud29;
     hostName = "nextcloud";
-    # https = true;
+    https = true;
     config.adminpassFile = "/etc/.nextcloud-admin-pass";
     settings = {
+      overwriteProtocol = "https";
       trusted_domains = [
         "192.168.2.195"
         "backup.rdvm.ca"
