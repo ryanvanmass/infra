@@ -11,6 +11,7 @@
     settings = {
       trusted_domains = [
         "192.168.2.195"
+        "backup.rdvm.ca"
       ];
     };
 
