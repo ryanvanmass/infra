@@ -10,4 +10,16 @@
         fsType = "nfs";
         options = [ "x-systemd.automount" "noauto" ];
     };
+
+    fileSystems."/media/Music" = {
+        device = "192.168.2.21:/mnt/Jango/Utility/Media/Music";
+        fsType = "nfs";
+        options = [ "x-systemd.automount" "noauto" ];
+    };
+
+    fileSystems."/media/Audiobook" = {
+        device = "192.168.2.21:/mnt/Jango/Utility/Media/Audiobook";
+        fsType = "nfs";
+        options = [ "x-systemd.automount" "noauto" ];
+    };
 }
