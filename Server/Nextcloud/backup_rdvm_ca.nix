@@ -7,7 +7,7 @@
     package = pkgs.nextcloud29;
     hostName = "nextcloud";
     # https = true;
-    config.adminpassFile = "/home/ryan/Infra/Server/Nextcloud/.nextcloud-admin-pass";
+    config.adminpassFile = "/etc/.nextcloud-admin-pass";
 
   };
 
