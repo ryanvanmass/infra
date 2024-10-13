@@ -8,6 +8,11 @@
     hostName = "nextcloud";
     # https = true;
     config.adminpassFile = "/etc/.nextcloud-admin-pass";
+    settings = {
+      trusted_domains = [
+        "192.168.2.195"
+      ];
+    };
 
   };
 
