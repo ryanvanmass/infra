@@ -5,6 +5,6 @@
         libation
         spotdl
         openvpn
-        youtube-dl
+        yt-dlp
       ];
   }
