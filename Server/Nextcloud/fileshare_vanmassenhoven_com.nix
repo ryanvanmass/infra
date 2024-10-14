@@ -5,7 +5,7 @@
     enable = true;
     # configureRedis = true;
     package = pkgs.nextcloud29;
-    hostName = "nextcloud";
+    hostName = "file share.vanmassenhoven.com";
     https = true;
     config.adminpassFile = "/etc/nextcloud-admin-pass";
     settings = {
