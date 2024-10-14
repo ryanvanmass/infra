@@ -3,7 +3,7 @@
   networking.firewall.allowedTCPPorts = [ 443 80 ];
   services.nextcloud = {
     enable = true;
-    # configureRedis = true;
+    configureRedis = true;
     package = pkgs.nextcloud30;
     hostName = "file share.vanmassenhoven.com";
     https = true;
