@@ -5,13 +5,13 @@
     enable = true;
     configureRedis = true;
     package = pkgs.nextcloud30;
-    hostName = "file share.vanmassenhoven.com";
+    hostName = "fileshare.vanmassenhoven.com";
     https = true;
     config.adminpassFile = "/etc/nextcloud-admin-pass";
     settings = {
       overwriteProtocol = "https";
       trusted_domains = [
-        ""
+        "https://172.16.42.183"
       ];
     };
     # autoUpdateApps.enable = true;
